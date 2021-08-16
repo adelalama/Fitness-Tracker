@@ -19,7 +19,6 @@ router.get("/api/workouts", (req, res) => {
     });
 });
 
-// Route to add sort
 router.get("/api/workouts/range", (req, res) => {
   db.Workout.aggregate([
     {
@@ -38,7 +37,6 @@ router.get("/api/workouts/range", (req, res) => {
     });
 });
 
-// Create a new workout
 router.post("/api/workouts", ({ body }, res) => {
   console.log(body);
   db.Workout.create({})
@@ -50,7 +48,6 @@ router.post("/api/workouts", ({ body }, res) => {
     });
 });
 
-// Route to add exercise to current workout
 router.put("/api/workouts/:id", (req, res) => {
   db.Workout.findByIdAndUpdate(
     req.params.id,

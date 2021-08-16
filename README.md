@@ -24,15 +24,15 @@ This app will allow you to add multiple excercises in your workout and show you 
 ## Usage
 * Opening the application will bring up the information of the last workout:
 
-![sh1](/Fitness-Tracker/assets/sh1.png)
+![sh1](./assets/sh1.png)
 
 * Clicking the Dashboard tab will bring up the information of your past workouts:
 
-![sh2](/Fitness-Tracker/assets/sh2.png)
+![sh2](./assets/sh2.png)
 
 * Clicking Continue Workout or New Workout will let you add the new workout information. Completing the workout will add the duration and number of excercises the workout was composed of.
 
-![sh3](/Fitness-Tracker/assets/sh3.png)
+![sh3](./assets/sh3.png)
 
 
 ## License
