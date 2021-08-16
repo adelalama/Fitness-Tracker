@@ -30,6 +30,11 @@ This app will allow you to add multiple excercises in your workout and show you 
 
 ![sh2](/Fitness-Tracker/assets/sh2.png)
 
+* Clicking Continue Workout or New Workout will let you add the new workout information. Completing the workout will add the duration and number of excercises the workout was composed of.
+
+![sh3](/Fitness-Tracker/assets/sh3.png)
+
+
 ## License
 ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
 <br />
