@@ -2,7 +2,7 @@ const router = require("express").Router();
 const db = require("../Models");
 
 
-// Aggregate function to add totalDuration
+// Use aggregate for total duration
 router.get("/api/workouts", (req, res) => {
   db.Workout.aggregate([
     {
@@ -64,16 +64,5 @@ router.put("/api/workouts/:id", (req, res) => {
       res.status(400).json(err);
     });
 });
-
-// Route to delete a workout
-// router.delete("/api/workouts/:id", (req, res) => {
-//   db.Workout.findByIdAndDelete(req.params.id)
-//     .then((results) => {
-//       res.json(results);
-//     })
-//     .catch((err) => {
-//       res.status(400).json(err);
-//     });
-// });
 
 module.exports = router;
